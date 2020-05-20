@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="Caja">
+        <div class="P_arriba">
+            <section class="P_arriba_lados_I">
+                <div class="caja_"><div class="tri_izq"> </div></div>
+                <div class="caja_izq"><div class="tri_izq"> </div></div>
+                <div class="caja_izq"><div class="tri_izq"> </div></div>
+                <div class="caja_izq"><div class="tri_izq"> </div></div>
+                
+            </section>
+            <section class="P_arriba_medio">
+
+            </section>
+            <section class="P_arriba_lados_D">
+                <div class="caja_der"><div class="tri_der"> </div></div>
+                <div class="caja_der"><div class="tri_der"> </div></div>
+                <div class="caja_der"><div class="tri_der"> </div></div>
+                <div class="caja_der"><div class="tri_der"> </div></div>
+            </section>
+        </div>
+
+        <div class="P_abajo">
+
+            <Section class="P_abajo_izquierda">
+                <input type="button" id="n1" class="numero" value="1" onclick="adicionar()">
+                <input type="button" id="n2" class="numero" value="2" onclick="adicionar()">
+                <input type="button" id="n3" class="numero" value="3" onclick="adicionar()">
+                <input type="button" id="op_1" class="opciones" value="CANCEL">
+                <input type="button" id="n4" class="numero" value="4" onclick="adicionar()">
+                <input type="button" id="n5" class="numero" value="5" onclick="adicionar()">
+                <input type="button" id="n6" class="numero" value="6" onclick="adicionar()">
+                <input type="button" id="op_2" class="opciones" value="CLEAR">
+                <input type="button" id="n7" value="7" class="numero" onclick="adicionar()">
+                <input type="button" id="n8" value="8" class="numero" onclick="adicionar()">
+                <input type="button" id="n9" value="9" class="numero" onclick="adicionar()">
+                <input type="button" id="op_3" class="opciones" value="OK">
+                <input type="button" id="n7" value=" " class="numero" onclick="adicionar()">
+                <input type="button" id="n8" value="0" class="numero" onclick="adicionar()">
+                <input type="button" id="n9" value="." class="numero" onclick="adicionar()">
+                <input type="button" id="op_4" class="opciones" value=" ">
+            </Section>
+            <section class="P_abajo_derecha">
+                <div id="e_1">
+                    <h4 id="nom_e_1">CARD</h2>
+                        <div class="enc_01"><div class="enc_cua_01"></div></div>
+                </div>
+                <div id="e_1">
+                    <h4 id="nom_e_1">RECEIPT</h2>
+                        <div class="enc_01"><div class="enc_cua_01"></div></div>
+                </div>
+                <div id="e_2">
+                    <h4 id="nom_e_1">CASH</h2>
+                        <div class="enc_02"><div class="enc_cua_02"></div></div>
+                </div>
+                <div id="e_2">
+                    <h4 id="nom_e_1">DEPOSIT</h2>
+                        <div class="enc_02"><div class="enc_cua_02"></div></div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="js/Principal.js"></script>
+</body>
+
+</html>
