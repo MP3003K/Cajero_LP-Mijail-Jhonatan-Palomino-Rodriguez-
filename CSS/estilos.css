@@ -2,11 +2,11 @@
     margin:0 auto;
     padding:0 auto;
     box-sizing: border-box;
-
+    
 }
 .Caja{
     width: 694px;
-    height: 610px;
+    height: 650px;
     margin-top: 65px;
     background-color: #8B8B8B;
     border-radius: 35px;
@@ -14,7 +14,7 @@
 }
 .P_arriba{
     width: 720px;
-    height: 340px;
+    height: 383px;
     float: left;
    
 }
@@ -23,19 +23,19 @@
     height: 340px;
 
 float: left;
-padding: 137px 0px; 
+padding: 145px 0px; 
 }
 .P_arriba_lados_D{
     width: 75px;
     height: 340px;
 
 float: left;
-padding: 137px 5px; 
+padding: 145px 5px; 
 }
 .P_arriba_medio{
    background-color: #ffe606;
 width: 540px;
-height: 332px;
+height: 370px;
 float: left;
 border: 14px solidrgb(9, 56, 19,854, 56);/*errro*/
 border-radius: 20px;
@@ -52,7 +52,7 @@ border: 4px solid #000000;
 
 
 .P_abajo_izquierda{
-    padding: 8px 13px;
+    padding: 7px 10px;
     width: 386px;
     height: 300px;
 float: left;
@@ -68,6 +68,7 @@ float: left;
 
 }
 .numero{
+    font-family: 'Balsamiq Sans', cursive;
     width: 50px;
     height: 50px;
     margin: 6px;
@@ -80,6 +81,7 @@ float: left;
         border: 3px solid black;
 }    
 .opciones{
+    font-family: 'Balsamiq Sans', cursive;
     height: 50px;
     margin: 6px;
     padding: 10px;
@@ -126,7 +128,7 @@ float: left;
      border: 1px solid white;
      background-color: black;
      border-radius: 15px;
-     margin: 6px 2px;
+     margin: 13px 2px;
 }
  .caja_izq{
      width: 60px;
@@ -134,7 +136,7 @@ float: left;
      border: 1px solid white;
      background-color: black;
      border-radius: 15px;
-     margin: 5px 8px;
+     margin: 13px 8px;
  }
  .tri_izq{
     clip-path: polygon(0 14%, 0 84%, 99% 45%);
@@ -142,7 +144,7 @@ float: left;
     width: 50%;
 height: 70%;
 float: left;
-margin:5px 17px; 
+margin:6px 17px; 
 }
 .tri_der{
     clip-path: polygon(100% 11%, 0 48%, 100% 89%);
@@ -152,7 +154,7 @@ margin:5px 17px;
     width: 51%;
 height: 67%;
 float: left;
-margin:4px 12px; 
+margin:6px 12px; 
 }
 .enc_01{
     width: 130px;
@@ -188,3 +190,88 @@ margin:4px 12px;
     border-radius: 4px;
     background-color: #000000;
 }
+.T_01{
+    font-size: 40px;
+    font-weight: 5px;
+}
+.T_02{
+    font-size: 25px;
+    font-weight: 18px;
+}
+.titulo{
+    padding: 25px;
+    margin: 10px;
+}
+.contraseña{
+    margin-top: 15px;
+    width: 400px;
+    height: 43px;
+    font-size: 49px;
+    border: orange solid 2px;
+}
+#mensaje{
+    font-size: 24px;
+    color: white;
+}
+.C_1{
+    font-family: 'Anton', sans-serif;
+    margin: 0px 67px;
+    padding: 20px 120px;
+    width:400px;
+    height: 78px;
+    float: left;
+    color: #451102;
+    font-size: 48px;
+   
+}
+.C_2{
+    margin: 0px 67px;
+    width:400px;
+    height: 50px;
+float: left;
+}
+.C_tri_ana_i{
+    width: 48px;
+    height: 50px;
+    float: left;
+}
+.tri_ana_i{
+    clip-path: polygon(0 14%, 0 84%, 99% 45%);
+    background-color:#451102;
+    width: 45px;
+    height: 57px;
+    float: left;
+    
+}
+.C_tri_ana_d{
+    width: 48px;
+    height:50px;
+    float: left;
+}
+.tri_ana_d{
+    clip-path: polygon(100% 11%, 0 48%, 100% 89%);
+    background-color: #451102;
+    width: 45px;
+    height: 54px;
+    float: left;
+  margin-left: 5px;
+}
+.C_O_1{
+   
+    width: 217px;
+    height: 50px;;
+    background-color: #ffe606;
+   float: left;
+   padding-top: 9px;
+   font-family: 'Balsamiq Sans', cursive;
+}
+
+.caja_visual{
+    padding: 11px 0px;
+    float: left;
+    color: #451102;
+    font-size: 25px;
+    
+}
+
+
