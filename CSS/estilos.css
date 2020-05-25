@@ -297,3 +297,73 @@ margin-top: -15px;
     font-size: 32px;
     padding: 19px 152px;
 }
+#monto{
+     float: left;
+     width: 250px;
+     height: 33px;
+     margin: 10px 138px;
+     background-color:rgb(235, 1, 1);
+     color: #000000;
+     border: 0px;
+     font-size: 50px;
+}
+.deposito{
+    font-size: 37px;
+    padding-left:  220px;
+    padding-top: 10px;
+    color: #451102;
+    float: left;
+}
+.C_3{
+    font-size: 38px;
+color: #451102;
+float: left;
+padding-left:15px;
+padding-top: 29px;
+}
+.C_4{
+    height: 80px;
+    width: 420px;
+    text-align: center;
+    font-size:26px;
+padding-left: -90px;
+float: left;
+padding-top: 10px;
+padding-left: 130px;
+font-weight: 9px;
+}
+.h4{
+    color: #451102;
+}
+.C_tri_ana_d2{
+    clip-path: polygon(100% 11%, 0 48%, 100% 89%);
+    background-color: #451102;
+    width: 45px;
+    height: 52px;
+    float: left;
+  margin-left: 5px;
+}
+.C_O_2{
+   margin-top: 8px;
+    width: 400px;
+    height: 50px;;
+    background-color: #ffe606;
+    float: left;
+    padding-top: 9px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 22px;
+    
+}
+.caja_visual2{
+padding-left: 82px;
+padding-top:239px;
+}
+h5{
+    color: #451102;
+   font-size: 40px; 
+}
+.C_F{
+    padding-left:120px;
+    padding-top:120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
